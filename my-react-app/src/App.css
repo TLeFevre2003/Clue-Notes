@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.player-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.player {
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing between players */
+  align-items: center;
+  max-width: 80%; /* Maximum width for the player container */
+  margin: auto; /* Center the player container */
+}
+
+.card {
+  margin: 5px;
+}
+
+.cell {
+  width: 150px; /* Adjust the width of each cell as needed */
+  height: 60px; /* Adjust the height of each cell as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Add cursor pointer */
+  border: 1px solid #ccc; /* Add border */
+}
+
+.checked {
+  background-color: lightblue; /* Add background color when checked */
+}
