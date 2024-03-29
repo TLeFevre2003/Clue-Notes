@@ -1,34 +1,35 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+In this project, I was trying to accomplish making a web app in react to further my web development skills and see if that is something
+I am interested in doing for a career.
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
+The web app that I wrote is a clue notes app. You can add players and mark what cards everyone has. Starting the test server is easy, if you have nodejs installed, navigate to the correct path
+in this case it is my-react-app, and in the terminal type npm run dev.
 
-{Describe your purpose for writing this software.}
+I wrote this because I find in the board game Clue, it is somewhat wasteful using paper
+for notes so I wrote an app to reduce waste.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/9QanJIrz5HQ)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+My web app has only one page, but on that page it is able to dynamically create players and buttons in a grid.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
 
-{Describe the programming language that you used and any libraries.}
+The tools for this software was vs code, and I also downloaded node.js.
+
+The programming language was javascript with the react web framework.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [React Tutorial](https://www.youtube.com/watch?v=SqcY0GlETPk)
+* [React Documentation](https://legacy.reactjs.org/docs/getting-started.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I would like to add something that allows you to type down notes in addition to the buttons.
+* I want to let you enter in each player's move so the app can solve on its own the 3 cards.
+* I would like to see if I can optimize the app for different screen sizes.
